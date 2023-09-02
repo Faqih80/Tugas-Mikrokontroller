@@ -1,7 +1,7 @@
-int led1 = 13;
-int led2 = 12;
-int button = 2;
-bool ledNyala = false;
+int led1 = 13;// Inisialisasi pin yang terhubung dengan led1
+int led2 = 12;// Inisialisasi pin yang terhubung dengan led2
+int button = 2;// Inisialisasi pin yang terhubung dengan tombol
+bool ledNyala = false; // Status Led
 void setup() {
   // put your setup code here, to run once:
   pinMode(led1, OUTPUT);
